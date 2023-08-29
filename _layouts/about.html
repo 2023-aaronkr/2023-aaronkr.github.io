@@ -51,19 +51,7 @@ layout: default
     {%- include latest_posts.html %} {%- endif %}
 
     <!-- Projects -->
-    {% if page.projects_horizontal -%}
-    <h2>
-      <a href="{{ '/projects/' | relative_url }}" style="color: inherit"
-        >Courses Horz</a
-      >
-    </h2>
-    {%- include projects_horizontal.html %} {%- endif %} {% if page.projects -%}
-    <h2>
-      <a href="{{ '/projects/' | relative_url }}" style="color: inherit"
-        >Courses</a
-      >
-    </h2>
-    {%- include projects.html %} {%- endif %}
+    {%- include projects_horizontal.html %} {%- include projects.html %}
 
     <!-- Selected papers -->
     {% if page.selected_papers -%}
