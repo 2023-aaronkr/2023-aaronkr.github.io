@@ -1,6 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"JICCE":
+  url: https://jicce.org/
+  color: "#008cd6"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"JPEE":
+  url: http://jpee.org/
+  color: "#cf183b"
+
+"KLife":
+  url: https://klife.re.kr/
+  color: "#8ec31f"
