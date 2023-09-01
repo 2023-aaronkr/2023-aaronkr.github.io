@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jekkilekki
+  - 2023-aaronkr
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - 2023-aaronkr/dju-sql
+  - 2023-aaronkr/dju-sec
+  - 2023-aaronkr/ut-cad
+  - 2023-aaronkr/ut-web
+  - 2023-aaronkr/jnue-iss
+  - 2023-aaronkr/hb-c
