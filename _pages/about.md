@@ -28,7 +28,7 @@ Aaron Snowberger는 한밭대학교 정보통신공학과 박사과정 수료했
 <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
+      {% include projects.html %}
     {%- endfor %}
     </div>
   </div>
