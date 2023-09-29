@@ -1,12 +1,16 @@
 <!-- _includes/courses.html -->
 <style>
   .courses-grid {
-    width: 800px;
-    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0.75rem;
     margin: 20px 0 40px;
+  }
+
+  @media (max-width: 576px) {
+    .courses-grid {
+      grid-template-columns: 1fr;
+    }
   }
 
   .courses-grid .card {
