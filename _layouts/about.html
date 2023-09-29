@@ -34,13 +34,6 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- Projects -->
-    {%- if page.projects %}
-    <h2>
-      <a href="{{ '/news/' | relative_url }}" style="color: inherit">Courses</a>
-    </h2>
-    {%- include projects_horizontal.html limit=true %} {%- endif %}
-
     <!-- News -->
     {% if page.news and site.announcements.enabled -%}
     <h2>

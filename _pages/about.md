@@ -3,16 +3,16 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  <a href='https://portal.dju.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 5px;" src="/assets/img/dju-logo.png" /></a>
+  <a href='https://portal.dju.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/dju-logo.png" /></a>
   <a href='https://www.dju.ac.kr'>대전대학교</a>
   &nbsp;&bull;&nbsp;
-  <a href='https://portal.ut.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 5px;" src="/assets/img/ut-logo.jpg" /></a>
+  <a href='https://portal.ut.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/ut-logo.jpg" /></a>
   <a href='https://www.ut.ac.kr/'>교통대학교</a>
   &nbsp;&bull;&nbsp;
-  <a href='https://portal.jnue.kr'><img style="width: 20px; border-radius: 50%; margin-right: 5px;" src="/assets/img/jnue-logo.jpg" /></a>
+  <a href='https://portal.jnue.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/jnue-logo.jpg" /></a>
   <a href='https://www.jnue.kr'>전주교육대학교</a>
   &nbsp;&bull;&nbsp;
-  <a href='https://my.hanbat.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 5px;" src="/assets/img/hanbat-logo.jpg" /></a>
+  <a href='https://my.hanbat.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 2px;" src="/assets/img/hanbat-logo.jpg" /></a>
   <a href='https://www.hanbat.ac.kr'>한밭대학교</a>
 
 profile:
@@ -37,13 +37,11 @@ Aaron Snowberger는 한밭대학교 정보통신공학과 박사과정 수료했
 {% if site.projects %}
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
-<div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-    </div>
-  </div>
+<div class="grid">
+  {%- for project in sorted_projects -%}
+    {% include projects.html %}
+  {%- endfor %}
+</div>
 
 {% endif %}
 
