@@ -1,8 +1,19 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='https://www.dju.ac.kr'>대전대학교</a> &bull; <a href='https://www.ut.ac.kr/'>교통대학교</a> &bull; <a href='https://www.jnue.kr'>전주교육대학교</a> &bull; <a href='https://www.hanbat.ac.kr'>한밭대학교</a>
+subtitle: >
+  <a href='https://portal.dju.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 5px;" src="/assets/img/dju-logo.png" /></a>
+  <a href='https://www.dju.ac.kr'>대전대학교</a>
+  &nbsp;&bull;&nbsp;
+  <a href='https://portal.ut.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 5px;" src="/assets/img/ut-logo.jpg" /></a>
+  <a href='https://www.ut.ac.kr/'>교통대학교</a>
+  &nbsp;&bull;&nbsp;
+  <a href='https://portal.jnue.kr'><img style="width: 20px; border-radius: 50%; margin-right: 5px;" src="/assets/img/jnue-logo.jpg" /></a>
+  <a href='https://www.jnue.kr'>전주교육대학교</a>
+  &nbsp;&bull;&nbsp;
+  <a href='https://my.hanbat.ac.kr'><img style="width: 20px; border-radius: 50%; margin-right: 5px;" src="/assets/img/hanbat-logo.jpg" /></a>
+  <a href='https://www.hanbat.ac.kr'>한밭대학교</a>
 
 profile:
   align: right
